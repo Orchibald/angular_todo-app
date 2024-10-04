@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="refresh" content="0; url=./">
+  <script type="text/javascript">
+    let currentPath = window.location.pathname;
+
+    if (currentPath !== "/angular_todo-app/") {
+      window.location.href = "/angular_todo-app/#" + currentPath;
+    }
+  </script>
 </head>
 <body>
 </body>
