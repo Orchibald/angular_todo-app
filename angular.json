@@ -20,6 +20,7 @@
           "options": {
             "outputPath": "dist/todo-app",
             "index": "src/index.html",
+            "404": "src/404.html",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
